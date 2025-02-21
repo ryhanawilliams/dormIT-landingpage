@@ -1,0 +1,130 @@
+.pre-release-interest {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pre-release-interest .div {
+    background-color: #ffffff;
+    width: 1728px;
+    height: 1117px;
+    position: relative;
+  }
+  
+  .pre-release-interest .image {
+    position: absolute;
+    width: 160px;
+    height: 96px;
+    top: 32px;
+    left: 139px;
+    object-fit: cover;
+  }
+  
+  .pre-release-interest .overlap {
+    position: absolute;
+    width: 548px;
+    height: 52px;
+    top: 332px;
+    left: 153px;
+    background-color: #4f3b78;
+    border-radius: 60px;
+  }
+  
+  .pre-release-interest .text-wrapper {
+    position: absolute;
+    top: 13px;
+    left: 90px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pre-release-interest .find-your-perfect {
+    position: absolute;
+    top: 413px;
+    left: 153px;
+    font-family: "Lato-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pre-release-interest .p {
+    position: absolute;
+    width: 577px;
+    height: 140px;
+    top: 557px;
+    left: 163px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .pre-release-interest .overlap-group {
+    position: absolute;
+    width: 395px;
+    height: 75px;
+    top: 734px;
+    left: 163px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #b1b1b1;
+  }
+  
+  .pre-release-interest .text-wrapper-2 {
+    position: absolute;
+    height: 28px;
+    top: 21px;
+    left: 55px;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #b1b1b1;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .pre-release-interest .div-wrapper {
+    position: absolute;
+    width: 186px;
+    height: 75px;
+    top: 734px;
+    left: 581px;
+    background-color: #4f3b78;
+    border-radius: 5px;
+  }
+  
+  .pre-release-interest .text-wrapper-3 {
+    position: absolute;
+    height: 28px;
+    top: 22px;
+    left: 37px;
+    font-family: "Lato-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .pre-release-interest .group {
+    position: absolute;
+    width: 622px;
+    height: 463px;
+    top: 272px;
+    left: 985px;
+  }
+  
