@@ -7,56 +7,40 @@
   </head>
   <body>
     <div class="pre-release-interest">
-      <div class="div">
-        <img class="image" src="img/image-5.png" />
-        <div class="overlap"><p class="text-wrapper">We are now allowing early access for users</p></div>
-        <p class="find-your-perfect">Find Your Perfect Roommate <br />with&nbsp;&nbsp;dormIT in one click</p>
-        <p class="p">
-          Dormit matches you with the perfect student roommate using a first-principles approach to off-campus housing.
-          Our AI-powered matching system analyzes lifestyle preferences, study habits, and social compatibility to
-          surface the best roommate options from your network.
-        </p>
-        <div class="overlap-group"><div class="text-wrapper-2">Enter your e-mail address</div></div>
-        <div class="div-wrapper"><div class="text-wrapper-3">Join Waitlist</div></div>
-        <img class="group" src="img/group-7.png" />
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="div">
+              <div class="gradient">
+                <div class="overlap-group-2">
+                  <div class="eclipse"></div>
+                  <div class="planet"></div>
+                </div>
+              </div>
+              <p class="match-move-belong">
+                Match. Move. Belong. Find your <br />perfect roommate and home with dormIT in a click!
+              </p>
+              <img class="zenbook-duo" src="images\ZenBook Duo 14.png" />
+            </div>
+            <div class="overlap-2">
+              <img class="image" src="images\image 5.png" />
+              <div class="rectangle"></div>
+            </div>
+            <div class="div-wrapper"><p class="text-wrapper">We are now allowing early access for users</p></div>
+            <p class="p">
+              dormIT matches you with the perfect student roommate using a first-principles approach to off-campus
+              housing. Our AI-powered matching system analyzes lifestyle preferences, study habits, and social
+              compatibility to surface the best roommate options from your network.
+            </p>
+            <div class="overlap-3"><div class="text-wrapper-2">Enter your e-mail address</div></div>
+            <div class="overlap-4"><div class="text-wrapper-3">Join Waitlist</div></div>
+          </div>
+          <div class="overlap-5"><div class="text-wrapper-3">Join Waitlist</div></div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">About</div>
+          <div class="text-wrapper-6">Opportunities</div>
+        </div>
       </div>
     </div>
   </body>
 </html>
-
-<div class="overlap-group">
-    <input type="email" id="email" class="text-wrapper-2" placeholder="Enter your e-mail address" />
-  </div>
-  <div class="div-wrapper" id="joinWaitlistButton">
-    <div class="text-wrapper-3">Join Waitlist</div>
-  </div>
-
-  <script>
-    document.getElementById('joinWaitlistButton').addEventListener('click', async () => {
-      const email = document.getElementById('email').value;
-  
-      if (!email) {
-        alert('Please enter your email address.');
-        return;
-      }
-  
-      try {
-        const response = await fetch('http://localhost:3000/api/waitlist', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ email }),
-        });
-  
-        if (response.ok) {
-          alert('You have been added to the waitlist!');
-        } else {
-          alert('Something went wrong. Please try again.');
-        }
-      } catch (error) {
-        console.error(error);
-        alert('Failed to connect to the server.');
-      }
-    });
-  </script>
